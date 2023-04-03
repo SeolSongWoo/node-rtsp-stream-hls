@@ -1,0 +1,5 @@
+.idea
+.gitignore
+.npmignore
+example.iml
+package-lock.json
