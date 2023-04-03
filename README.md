@@ -26,8 +26,8 @@ app.get('/', function(req, res, next) {
 });
 
 const options = {
-    url : 'rtsp://wowzaec2demo.streamlock.net/vod/mp4:BigBuckBunny_115k.mp4',
-    segmentFolder : __dirname + '/public/segment',
+    url : 'rtsp://wowzaec2demo.streamlock.net/vod/mp4:BigBuckBunny_115k.mp4', // rtsp URL. this is sample url
+    segmentFolder : __dirname + '/public/segment',  //The path is where the .m3u8 and ts files will be stored.
     ffmpegOptions : {  //ffmpeg option.
         // If you have a ffmpeg option you want to add, write it down here.
         '-hls_time': '30', // If the same option is set, it is possible to change the value.
